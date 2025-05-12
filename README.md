@@ -55,3 +55,7 @@ python main.py
 
 ### Execução total
 ![exec](./img/exec.png)
+
+## Outros
+
+**Vídeo de apresentação:** [Link do vídeo](https://www.youtube.com/watch?v=snPnqs9edNI)
