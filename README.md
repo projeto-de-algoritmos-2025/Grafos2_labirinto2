@@ -19,11 +19,17 @@ Para executar este projeto, você precisará ter o Python 3.x instalado, além d
 # Clone o repositório
 git clone https://github.com/seu-usuario/Dijkstra_Visualization.git
 
-# Entre na pasta do projeto
-cd Dijkstra_Visualization
+# Crie um ambiente virtual
+python3 -m venv venv
+
+# Ative o ambiente virtual
+source venv/bin/activate
 
 # Instale as dependências
-pip install pygame
+pip install -r requirements.txt
+
+# Entre na pasta do projeto
+cd Dijkstra_Visualization
 ```
 
 ## Uso 
@@ -40,4 +46,12 @@ python main.py
 - **Resetar**: Reinicia a visualização com o mesmo grafo
 
 ## Screenshots
-[Serão adicionados screenshots da aplicação em funcionamento] 
+
+### Home
+![Home](./img/home.png)
+
+### Execução de um passo
+![passo](./img/passo.png)
+
+### Execução total
+![exec](./img/exec.png)
